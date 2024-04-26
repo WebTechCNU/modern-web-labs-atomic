@@ -1,0 +1,103 @@
+@import "../../utils/colors";
+
+.navbar {
+  padding-top: 0.25rem;
+  display: flex;
+  height: 50px;
+  width: 100%;
+  background-color: @white;
+  justify-content: center;
+  align-items: center;
+  border-top: 3px solid #e58f8f;
+  box-shadow: 1px 1px 10px #e5e5e5;
+
+  &_search {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.container {
+  width: 80%;
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo__link{
+  width: 15%;
+  height: 100%;
+  display: flex;
+  text-decoration: none;
+}
+
+.navbar_logo{
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  width: 40px;
+  height: 40px;
+}
+.logo_title{
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+  font-family: 'Lato', sans-serif;
+}
+
+.auth{
+  display: flex;
+  width: 15%;
+  height: 90%;
+  align-self: center;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar_login, .navbar_register {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  text-decoration: unset;
+  color: #e58f8f;
+  cursor: pointer;
+}
+
+.auth_btn{
+  text-decoration: none;
+  color: #bbbbbb;
+  cursor: pointer;
+  font-family: 'Lato', sans-serif;
+}
+
+.auth_btn:hover{
+  color: #e58f8f;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.auth__block {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.avatar__img {
+  width: 2rem;
+  height: 2rem;
+  background-color: #eae9e9;
+  border: 2px solid #e58f8f;
+  border-radius: 2rem;
+}

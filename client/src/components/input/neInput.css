@@ -1,0 +1,19 @@
+input{
+    width: 100%;
+    height: inherit;
+    border: none;
+    border-bottom: 2px solid #e58f8f;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    background: transparent;
+}
+
+.input{
+    width: 80%;
+    height: 35px;
+    margin-bottom: 5px;
+}
+
+input:focus{
+    outline: none;
+}

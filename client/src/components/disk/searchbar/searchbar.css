@@ -1,0 +1,20 @@
+.searchbar {
+  width: 100%;
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin-top: 0.3rem;
+}
+.searchbar__input {
+  width: 80%;
+  height: 50%;
+  background-color: #eceeef;
+  border: 2px solid #eceeef;
+  border-radius: 0.3rem;
+  color: #424242;
+  padding: 0.3rem;
+  font-size: 16px;
+  font-weight: 600;
+}
+/*# sourceMappingURL=searchbar.css.map */

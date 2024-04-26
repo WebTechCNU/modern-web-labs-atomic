@@ -1,0 +1,38 @@
+.auth_block{
+    margin-top: 5rem;
+    width: 35%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    align-self: center;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    border: 1px solid #ffffff;
+    border-radius: 1rem;
+    box-shadow: 2px 1px 20px #e5e5e5;
+}
+
+.auth_label{
+    width: 100%;
+    height: 30px;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.register_button, .login_button {
+    width: 82%;
+    height: 35px;
+    margin-top: 3rem;
+    background-color: #e58f8f;
+    color: white;
+    border: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+

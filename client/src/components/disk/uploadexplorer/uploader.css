@@ -1,0 +1,107 @@
+.uploader {
+  height: 35%;
+  width: 30%;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 1px 10px #d2d2d2;
+  overflow: scroll;
+}
+.uploader::-webkit-scrollbar {
+  display: none;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  /* IE and Edge */
+}
+.uploader__header {
+  margin-top: 0.7rem;
+  margin-bottom: 1rem;
+  width: 95%;
+  height: 25%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: center;
+}
+.uploader__title {
+  height: 55%;
+  font-size: 20px;
+  font-weight: 400;
+  align-self: center;
+  font-family: 'Lato', sans-serif;
+  margin-left: 1rem;
+}
+.uploader__close__btn {
+  width: 2rem;
+  height: 2rem;
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  align-self: flex-start;
+  user-select: none;
+  border-radius: 1rem;
+}
+.uploader__close__btn:hover {
+  background-color: #e58f8f;
+}
+.upload-atom {
+  width: 100%;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.upload-atom:hover {
+  font-weight: 500;
+  box-shadow: 1px 1px 10px #fafafa;
+  background-color: #e9edf6;
+}
+.upload-atom__header {
+  width: 95%;
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: 'Lato', sans-serif;
+  color: #424242;
+}
+.upload-atom__filename {
+  width: 45%;
+  height: 85%;
+  align-self: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.upload-atom__progressbar {
+  width: 45%;
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: center;
+}
+.upload-atom__progressbar__bar {
+  align-self: flex-end;
+  width: 65%;
+  height: 0.7rem;
+  background-color: transparent;
+  border: 2px solid #424242;
+}
+.upload-atom__progressbar__progress {
+  align-self: center;
+  justify-self: center;
+  width: 3rem;
+  height: inherit;
+  background-color: #4c84e1;
+}
+.upload-atom__progressbar__status {
+  font-size: 16px;
+  font-weight: 600;
+}
+/*# sourceMappingURL=uploader.css.map */
