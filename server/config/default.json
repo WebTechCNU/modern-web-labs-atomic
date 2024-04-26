@@ -1,0 +1,7 @@
+{
+  "serverPort": 5000,
+  "dbUrl" : "mongodb+srv://Hashmster:JwtJwtJwt@atom1.vwf1m8k.mongodb.net/?retryWrites=true&w=majority",
+  "secretKey": "mern-have-secrets",
+  "filepath": "E:\\B.ProjectStore\\Other\\mern-cloud\\server\\filestorage",
+  "staticPath": "E:\\B.ProjectStore\\Other\\mern-cloud\\server\\static"
+}
